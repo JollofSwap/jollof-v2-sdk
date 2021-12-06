@@ -8,7 +8,7 @@ export enum ChainId {
   ROPSTEN = 3,
   RINKEBY = 4,
   GÖRLI = 5,
-  KOVAN = 42
+  KOVAN = 42,
   FINDORA_FORGE = 525
 }
 
@@ -27,8 +27,8 @@ export enum Rounding {
 
 // export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
 
-export declare const FACTORY_ADDRESS = "0x95A192dc092871C7251109A83585A338382386c8";
-export declare const INIT_CODE_HASH = "0xdffa051a3f9731d49ea1358d0681c7c46503651a827074bfcc44f9db79fbc807";
+export const FACTORY_ADDRESS = "0x95A192dc092871C7251109A83585A338382386c8";
+export const INIT_CODE_HASH = "0xdffa051a3f9731d49ea1358d0681c7c46503651a827074bfcc44f9db79fbc807";
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
